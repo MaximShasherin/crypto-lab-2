@@ -1,5 +1,16 @@
-Variant,PSNR,SSIM,Changed Comp,Changed Ratio,P(LSB=0),P(LSB=1),Chi2,p-value
-Cover,inf,1.0,0,0.0,0.5003,0.4997,5800.31,0.0
-Plain LSB,89.2,1.0,512,0.0001,0.5003,0.4997,5782.49,0.0
-Encrypted LSB,88.23,1.0,641,0.0001,0.5003,0.4997,5787.32,0.0
-Random LSB,87.93,1.0,687,0.0001,0.5003,0.4997,5800.02,0.0
+Image,Variant,Payload Rate,PSNR,SSIM,Changed Ratio (%),P(LSB=1),Chi2,p-value
+my_photo.png,Plain LSB,Small,89.2,1.0,0.01,0.4997,5782.49,0.0
+my_photo.png,Encrypted LSB,Small,88.44,1.0,0.01,0.4997,5787.21,0.0
+my_photo.png,Random LSB,Small,88.23,1.0,0.01,0.4997,5795.02,0.0
+my_photo.png,Plain LSB (1%),1%,71.13,-,0.5,-,-,0.0
+my_photo.png,Plain LSB (5%),5%,64.15,-,2.5,-,-,0.0
+gradient.png,Plain LSB,Small,79.96,1.0,0.07,0.4992,242.23,0.0
+gradient.png,Encrypted LSB,Small,79.14,1.0,0.08,0.4993,223.37,0.0
+gradient.png,Random LSB,Small,78.94,1.0,0.08,0.499,293.02,0.0
+gradient.png,Plain LSB (1%),1%,71.44,-,0.47,-,-,0.0
+gradient.png,Plain LSB (5%),5%,64.25,-,2.45,-,-,0.0
+checkerboard.png,Plain LSB,Small,80.22,1.0,0.06,0.167,392244.62,0.0
+checkerboard.png,Encrypted LSB,Small,78.95,1.0,0.08,0.1672,391915.08,0.0
+checkerboard.png,Random LSB,Small,78.81,1.0,0.09,0.1672,391873.15,0.0
+checkerboard.png,Plain LSB (1%),1%,72.91,-,0.33,-,-,0.0
+checkerboard.png,Plain LSB (5%),5%,65.91,-,1.67,-,-,0.0
